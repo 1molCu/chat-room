@@ -70,7 +70,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             )}
             {
                 process.env.NEXT_PUBLIC_USE_SHAREVIDEO && (
-                    <Script type="text/javascript" src="https://cdn.staticfile.org/flv.js/1.6.2/flv.min.js"></Script>
+                    <Script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flv.js/1.6.2/flv.min.js"></Script>
                 )
             }
             {
